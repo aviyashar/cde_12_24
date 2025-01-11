@@ -1,2 +1,2 @@
 Hello, world!
-This is the first line.
+This is the updated line from feature2.
