@@ -13,8 +13,10 @@ def process_data(input_file, output_file):
     
     # Export processed data to a new CSV
     data.to_csv(output_file, index=False)
-
+ß
 if __name__ == "__main__":
     input_file = "input_data.csv"
     output_file = "output_data.csv"
     process_data(input_file, output_file)
+    print("hi")
+
