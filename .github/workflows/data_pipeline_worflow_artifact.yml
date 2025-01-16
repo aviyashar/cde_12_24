@@ -1,4 +1,4 @@
-name: Data_Pipeline_CI/CD
+name: Data_Pipeline_CI/CD_artifact
 
 on:
   push:
