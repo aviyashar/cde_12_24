@@ -1,3 +1,0 @@
-Hello, world!
-This is the updated line from feature1.
-This is a conflicting line from main.
