@@ -7,7 +7,7 @@ def process_data(input_file, output_file):
     # Perform data transformations (for example, doubling the values in a 'value' column)
     data['value'] = data['value'] * 2
     
-    
+    avivaivadfaids
     # Introduce a mistake: Add values instead of doubling them
     # data['value'] = data['value'] + 2  # This line is incorrect
     
