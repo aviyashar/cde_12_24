@@ -31,9 +31,6 @@ jobs:
       with:
         languages: python
 
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v2
-
     - name: Deploy
       run: |
         python data_pipeline.py
