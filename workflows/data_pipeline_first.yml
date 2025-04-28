@@ -22,6 +22,6 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Deploy
+    - name: RunPython
       run: |
         python data_pipeline.py
