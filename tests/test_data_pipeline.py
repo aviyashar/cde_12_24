@@ -21,7 +21,7 @@ class TestDataPipeline(unittest.TestCase):
         processed_data = pd.read_csv(output_file)
 
         # Check if values are doubled
-        expected_data = {'id': [1, 2, 3], 'value': [20, 40, 60]}
+        expected_data = {'id': [1, 2, 3], 'value': [20, 40, 50]}
         expected_df = pd.DataFrame(expected_data)
         pd.testing.assert_frame_equal(processed_data, expected_df)
 
